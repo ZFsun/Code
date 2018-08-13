@@ -17,8 +17,8 @@ def getSign(parser,appkey):
 
 
 url = "https://api.ai.qq.com/fcgi-bin/nlp/nlp_textchat"
-app_key = 'rpicOvPJokTOivu7'
-app_id = '2107795804'
+app_key = 'xxxxxxx'
+app_id = 'xxxxxxx'
 questionS = '你叫什么名字？'
 
 

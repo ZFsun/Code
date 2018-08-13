@@ -6,8 +6,8 @@ import json
 
 url = "https://api.ai.qq.com/fcgi-bin/nlp/nlp_textchat"
 
-app_key = 'rpicOvPJokTOivu7'
-app_id = '2107795804'
+app_key = 'XXXXXXXX'
+app_id = 'XXXXXXXX'
 questionS = '名字？'
 
 def getSign(parser,appkey):
