@@ -27,4 +27,6 @@ answer|是|string|UTF-8编码，非空
 3.将应用密钥以app_key为键名，组成URL键值拼接到字符串T末尾，得到字符串S（如：key1=value1&key2=value2&app_key=密钥)
 4.对字符串S进行MD5运算，将得到的MD5值所有字符转换成大写，得到接口请求签名
 <br>
-**腾讯文档链接：**(https://ai.qq.com/doc/nlpchat.shtml)
+**腾讯相关文档链接：**
+* https://ai.qq.com/doc/nlpchat.shtml
+* https://ai.qq.com/doc/auth.shtml
