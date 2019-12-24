@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QWidget" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1312</width>
+    <height>835</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="ImgShow" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>751</width>
+     <height>741</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SaveDir">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>770</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>保存路径</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../labelme/labelme/icons/open.png</normaloff>../../labelme/labelme/icons/open.png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="OpenDir">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>770</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>打开目录</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../labelme/labelme/icons/open.png</normaloff>../../labelme/labelme/icons/open.png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="LastImg">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>770</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>上一张</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../labelme/labelme/icons/prev.png</normaloff>../../labelme/labelme/icons/prev.png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="NextImg">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>770</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>下一张</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../labelme/labelme/icons/next.png</normaloff>../../labelme/labelme/icons/next.png</iconset>
+   </property>
+  </widget>
+  <widget class="QWidget" name="EnlargeImg" native="true">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>10</y>
+     <width>501</width>
+     <height>471</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>850</x>
+     <y>570</y>
+     <width>72</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>粗细</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>850</x>
+     <y>620</y>
+     <width>72</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>颜色</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SaveImg">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>770</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>保存</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../labelme/labelme/icons/save.png</normaloff>../../labelme/labelme/icons/save.png</iconset>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="spinBox">
+   <property name="geometry">
+    <rect>
+     <x>930</x>
+     <y>570</y>
+     <width>46</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <number>10</number>
+   </property>
+   <property name="value">
+    <number>5</number>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>930</x>
+     <y>610</y>
+     <width>87</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="currentText">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
