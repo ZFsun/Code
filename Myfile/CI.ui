@@ -6,23 +6,13 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1312</width>
-    <height>835</height>
+    <width>1348</width>
+    <height>858</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <widget class="QWidget" name="ImgShow" native="true">
-   <property name="geometry">
-    <rect>
-     <x>10</x>
-     <y>10</y>
-     <width>751</width>
-     <height>741</height>
-    </rect>
-   </property>
-  </widget>
   <widget class="QPushButton" name="SaveDir">
    <property name="geometry">
     <rect>
@@ -37,7 +27,7 @@
    </property>
    <property name="icon">
     <iconset>
-     <normaloff>../../labelme/labelme/icons/open.png</normaloff>../../labelme/labelme/icons/open.png</iconset>
+     <normaloff>../../labelme/labelme/icons/save-as.png</normaloff>../../labelme/labelme/icons/save-as.png</iconset>
    </property>
   </widget>
   <widget class="QPushButton" name="OpenDir">
@@ -101,7 +91,7 @@
     </rect>
    </property>
   </widget>
-  <widget class="QLabel" name="label">
+  <widget class="QLabel" name="PenThicknessLabel">
    <property name="geometry">
     <rect>
      <x>850</x>
@@ -114,7 +104,7 @@
     <string>粗细</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_2">
+  <widget class="QLabel" name="PenColorLabel">
    <property name="geometry">
     <rect>
      <x>850</x>
@@ -144,7 +134,7 @@
      <normaloff>../../labelme/labelme/icons/save.png</normaloff>../../labelme/labelme/icons/save.png</iconset>
    </property>
   </widget>
-  <widget class="QSpinBox" name="spinBox">
+  <widget class="QSpinBox" name="PenThicknessSpinBox">
    <property name="geometry">
     <rect>
      <x>930</x>
@@ -160,7 +150,7 @@
     <number>5</number>
    </property>
   </widget>
-  <widget class="QComboBox" name="comboBox">
+  <widget class="QComboBox" name="PenColorComboBox">
    <property name="geometry">
     <rect>
      <x>930</x>
@@ -171,6 +161,22 @@
    </property>
    <property name="currentText">
     <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="ImgShowLabel">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>741</width>
+     <height>691</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
    </property>
   </widget>
  </widget>
