@@ -27,7 +27,7 @@
    </property>
    <property name="icon">
     <iconset>
-     <normaloff>../../labelme/labelme/icons/save-as.png</normaloff>../../labelme/labelme/icons/save-as.png</iconset>
+     <normaloff>../../../../labelme/labelme/icons/save-as.png</normaloff>../../../../labelme/labelme/icons/save-as.png</iconset>
    </property>
   </widget>
   <widget class="QPushButton" name="OpenDir">
@@ -44,7 +44,7 @@
    </property>
    <property name="icon">
     <iconset>
-     <normaloff>../../labelme/labelme/icons/open.png</normaloff>../../labelme/labelme/icons/open.png</iconset>
+     <normaloff>../../../../labelme/labelme/icons/open.png</normaloff>../../../../labelme/labelme/icons/open.png</iconset>
    </property>
   </widget>
   <widget class="QPushButton" name="LastImg">
@@ -61,7 +61,7 @@
    </property>
    <property name="icon">
     <iconset>
-     <normaloff>../../labelme/labelme/icons/prev.png</normaloff>../../labelme/labelme/icons/prev.png</iconset>
+     <normaloff>../../../../labelme/labelme/icons/prev.png</normaloff>../../../../labelme/labelme/icons/prev.png</iconset>
    </property>
   </widget>
   <widget class="QPushButton" name="NextImg">
@@ -78,17 +78,7 @@
    </property>
    <property name="icon">
     <iconset>
-     <normaloff>../../labelme/labelme/icons/next.png</normaloff>../../labelme/labelme/icons/next.png</iconset>
-   </property>
-  </widget>
-  <widget class="QWidget" name="EnlargeImg" native="true">
-   <property name="geometry">
-    <rect>
-     <x>790</x>
-     <y>10</y>
-     <width>501</width>
-     <height>471</height>
-    </rect>
+     <normaloff>../../../../labelme/labelme/icons/next.png</normaloff>../../../../labelme/labelme/icons/next.png</iconset>
    </property>
   </widget>
   <widget class="QLabel" name="PenThicknessLabel">
@@ -131,7 +121,7 @@
    </property>
    <property name="icon">
     <iconset>
-     <normaloff>../../labelme/labelme/icons/save.png</normaloff>../../labelme/labelme/icons/save.png</iconset>
+     <normaloff>../../../../labelme/labelme/icons/save.png</normaloff>../../../../labelme/labelme/icons/save.png</iconset>
    </property>
   </widget>
   <widget class="QSpinBox" name="PenThicknessSpinBox">
@@ -163,20 +153,17 @@
     <string/>
    </property>
   </widget>
-  <widget class="QLabel" name="ImgShowLabel">
+  <widget class="QLabel" name="EnlargeImg">
    <property name="geometry">
     <rect>
-     <x>20</x>
-     <y>10</y>
-     <width>741</width>
-     <height>691</height>
+     <x>820</x>
+     <y>60</y>
+     <width>461</width>
+     <height>411</height>
     </rect>
    </property>
    <property name="text">
     <string/>
-   </property>
-   <property name="scaledContents">
-    <bool>true</bool>
    </property>
   </widget>
  </widget>
